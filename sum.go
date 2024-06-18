@@ -14,6 +14,10 @@ func sub(a, b int) int {
 	return a - b
 }
 
+func subX(a, b int) int {
+	return a - b - a
+}
+
 func times(a, b int) int {
 	return a * b
 }
